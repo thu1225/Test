@@ -31,3 +31,11 @@ n = number_of_elements.to_i
             end
             end
         end
+# Code e viết gọn, dễ đọc
+# A có vài góp ý nhỏ:
+# 1. A mới thấy code mà có !! luôn ah e
+# 2. Biến theo format bình thường của ruby là chữ thường hết nhé e. VD: numbers_Random -> numbers_random
+# 3. Em có thể xem xét hàm input từ user, nếu kg đúng thì nhập lại -> có thể tách ra hàm để dễ quản lý
+# 4. Em cần chú ý hơn cách tab thụt vào cho đễ đọc. VD: line 25, 32
+# 5. Giữa các toán tử e có thể cách ra cho dễ đọc. VD: start = i + 1 hoặc if i == n
+# 6. Biến e cần đặt có ý nghĩa hơn, tránh việc sử dụng a, b, n
